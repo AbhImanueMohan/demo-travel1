@@ -1,0 +1,91 @@
+*{
+    font-family: 'Times New Roman', Times, serif;
+}
+.f1{
+    display: flex;
+    flex-direction: row;
+    background-color: rgb(130, 130, 219);
+    font-family: 'Times New Roman', Times, serif;
+    position: sticky;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    top: 0;  
+}
+#home{
+    display: flex;
+    flex-direction: column;
+    background-color: rgba(14, 138, 209, 0);
+    height: 750px;
+  padding-bottom: 30px;
+    color: rgb(250, 250, 255);
+}
+#home::before{
+    content: "";
+    position: absolute;
+    background-image: url('https://th.bing.com/th/id/R.30bb3b6d5f2178effda220e05747ebf2?rik=LqZ%2bI5opq6VRKA&riu=http%3a%2f%2fwww.pacificvoyagers.org%2fwp-content%2fuploads%2f2020%2f07%2fSolo-Travel-in-Nature-acbfea52bfaf.jpg&ehk=DPCVJcr1VfbSj4V0Ia8mv6LeeZc%2b0q5RGj7VdIkgYws%3d&risl=&pid=ImgRaw&r=0');
+    height: 950px;
+    width: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    z-index: -1;
+}
+.f3{
+    border: 2px solid black;
+   padding: 10px;
+    height: 400px;
+    width: 550px;
+    background: rgba(0, 0, 0, 0.911);
+    
+}
+.d{
+    padding: 70px;
+}
+#h{
+    padding: 250px;
+    display: flex;
+    height: 100px;
+    width: 100%;
+}
+#join{
+    border: 2px solid black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    height: 500px;
+    background-size: cover;
+    background-image: url('https://www.norvicshipping.com/wp-content/uploads/2017/04/world-map-grey.png');
+}
+.f5{
+    flex-wrap: wrap;
+    display: flex;
+    padding: 20px;
+    height: 900px;
+    width: 100%;
+}
+#check{
+    text-align: center;
+}
+img{
+    height: 200px;
+    width: 400px;
+    padding: 10px;
+    margin: 20px;
+}
+img:hover{
+    height: 300px;
+    cursor: pointer;
+}
+#popular{
+    text-align: center;
+}
+.seen{
+    text-align: center;
+}
+#footer{
+    background-color: rgb(32, 32, 32);
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
